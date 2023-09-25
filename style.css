@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image:url("front.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color:paleturquoise;
+}
+header a{
+    text-decoration: none;
+    color:paleturquoise;
+    
+}
+header{
+    display:flex;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+}
+nav{
+    flex: 2;
+    display: flex;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color:yellow;
+    
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+
+}
+.tagline1{
+    color:yellow;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:paleturquoise;
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: green;
+    color: white;
+    border: 1px;
+}
+body{
+    background: white;
+    font-family: 'poppins',sans-serif;
+}
+.menu{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap:20px 40px;
+
+}
+.heading{
+    background: red;
+    color: black;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+        
+}
+.heading>h1{
+    font-weight:400 ;
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-transform:uppercase ;
+
+}
+.heading>h3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0,6);
+    transition: .2s ease-in-out;
+}
+.food-items img{
+    position: relative;
+    width: 80%;
+    height: 260px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+h1{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap:15px;
+}
+.details-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details-sub>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.price{
+    text-align:justify;
+}
+.details>p{
+    color: black;
+    font-size: 15px;
+    line-height: 2px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.details>button{
+    background: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    cursor: pointer;
+}
+.details>button:hover{
+    background-color: red;
+}
